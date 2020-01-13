@@ -1,0 +1,7 @@
+
+/* pages/page/page.wxss */
+
+.title{
+  color: red;
+  font-size: 30px
+}
