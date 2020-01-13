@@ -5,3 +5,44 @@
   color: red;
   font-size: 30px
 }
+
+.placeholder{
+  height: 1.5em;
+  background-color: royalblue;
+}
+
+.container{
+  width: 100%;
+}
+
+.lunbor{
+  width:100%;
+  height: 200px;
+}
+
+.lunbor swiper-item,.lunbor swiper-item image{
+  width:100%;
+}
+
+/**
+主题盒子
+**/
+
+.box{
+
+}
+
+.box .box-title{
+  display: flex;
+  justify-content: space-between
+}
+
+.see-all{
+ padding-right: 1em;
+}
+
+.see-all-img {
+  height: 1em;
+  width: 1em;
+  vertical-align: middle
+}

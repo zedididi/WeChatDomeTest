@@ -1,3 +1,27 @@
 <!--pages/page/page.wxml-->
+<view class="placeholder"></view>
+<view class="container">
+  <swiper class="lunbor" indicator-dots="true" autoplay circular>
+    <swiper-item>
+      <image src="/img/1.jpg"/>
+    </swiper-item>
+    <swiper-item>
+      <image src="/img/2.jpg"/>
+    </swiper-item>
+  </swiper>
+</view>
+
+<view class="box">
+  <view class="box-title">
+    <text>我的课程</text>
+    <view class="see-all">
+    查看全部
+    <image class="see-all-img" src="/img/right.png"> </image>
+    </view>
+  </view>
+  <view class="box-content"></view>
+
+</view>
+
 <text class="title">Hello World</text>
-<button  size="mini"> 按钮</button>
+<button size="mini"> 按钮</button>
