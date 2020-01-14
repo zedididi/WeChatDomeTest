@@ -13,7 +13,7 @@
 
 <view class="box">
   <view class="box-title">
-    <text>我的课程</text>
+    <text>我的课程{{name}}</text>
     <view class="see-all">
     查看全部
     <image class="see-all-img" src="/img/right.png"> </image>
@@ -22,6 +22,7 @@
   <view class="box-content"></view>
 
 </view>
-
+<view wx:for="{{students}}">{{item.name}}</view>
 <text class="title">Hello World</text>
-<button size="mini"> 按钮</button>
+<view>当前计数：{{counter}}</view>
+<button bindtap='handleBtnClick'> 按钮</button>

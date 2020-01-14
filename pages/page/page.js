@@ -5,7 +5,20 @@ Page({
    * 页面的初始数据
    */
   data: {
+    name:"nameData",
+    students: [
+      {name:"name1",age:11},
+      {name:"name2",age:12}
+    ],
+    counter: 0
+  },
 
+  handleBtnClick() {
+    console.log('按钮发生了点击');
+  //  this.data.counter +=1;
+    this.setData({
+      counter:this.data.counter += 1
+    })
   },
 
   /**
